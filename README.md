@@ -11,12 +11,12 @@ The text-to-speech system consists of two parts:
 
 To download the dataset for training, go to [the Robo-Shaul competition website and fill the small form there](https://story.kan.org.il/robo_shaul/c/bb084921/?cardId=bb084921)
 
-To download the trained models, go to [TODO] for overflow, [TODO] for hifi-gan
+To download the trained models, go to [this link](https://drive.google.com/drive/folders/1C7xfx8p8iTaF73bvfvIdkGDPv01wvjmx?usp=share_link) for OverFlow, [this link](https://drive.google.com/drive/folders/1SC6IQtdXH1SjHSgLGY1iZtl9nwDGQ072?usp=share_link) for HiFi-GAN.
 
 The model expects diacritized hebrew (עברית מנוקדת), we recommend [Nakdimon](https://nakdimon.org) by Elazar Gershuni and Yuval Pinter. The link is to a free online tool, the code and model are also available on GitHub at [https://github.com/elazarg/nakdimon](https://github.com/elazarg/nakdimon)
 ## Installation
 
-Here are the installation instructions necessary to use our trained models or to train your own models.
+Here are the installation instructions necessary to use our trained models or to train your own models. They have been tested on Ubuntu 22.04, and should work as-is on Mac except for there being no CUDA. If you're on Windows, best of luck!
 
 It is recommended to do these steps inside a virtual environment, conda env, or similar.
 
@@ -24,12 +24,11 @@ Steps:
 
 1. Clone our fork of coqui-tts: `git clone https://github.com/shenberg/TTS`
 2. Install it as an editable install: `pip install -e TTS`
-3. Download our trained models & extract the archives: [Overflow TTS](TODO: link), [HiFi-GAN](TODO: link)
+3. Download our trained models: [Overflow TTS](https://drive.google.com/drive/folders/1C7xfx8p8iTaF73bvfvIdkGDPv01wvjmx?usp=share_link), [HiFi-GAN](https://drive.google.com/drive/folders/1SC6IQtdXH1SjHSgLGY1iZtl9nwDGQ072?usp=share_link)
 4. Test that it works: `CUDA_VISIBLE_DEVICES=0 tts --text "עַכְשָׁיו, לְאַט לְאַט, נָסוּ לְדַמְיֵין סוּפֶּרְמַרְקֶט." --model_path /path/to/saspeech_overflow.pth  --config_path /path/to/config_saspeech_overflow.json  --vocoder_path /path/to/saspeech_hifigan.pth --vocoder_config_path /path/to/config_saspeech_hifigan.json --out_path test.wav`
 
 You should now have a file named `test.wav` which has the model's TTS output.
 
-Note: Many thanks to 
 ## Training
 
 Once you have successfully created `test.wav` using our trained models, the time has come to set up training your own models.
@@ -38,7 +37,7 @@ Once you have successfully created `test.wav` using our trained models, the time
 
 ### Data Preparation
 
-raw notes:
+The sequence of actions necessary to extract the dataset (replace `/path/to` with the real path of course):
 
 ```
 $ unzip Roboshaul.zip
