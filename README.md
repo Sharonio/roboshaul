@@ -2,9 +2,9 @@
 
 This repository contains all you need in order to use the train your own robo-shaul or use pre-trained models.
 
-For a demo look [here](https://anonymous19283746.github.io/saspeech/)
+#### For a demo look [here](https://anonymous19283746.github.io/saspeech/)
 
-For a quick start look at [roboshaul_usage.ipynb](https://github.com/Sharonio/roboshaul/blob/main/roboshaul_usage.ipynb) 
+#### For a quick start look at [roboshaul_usage.ipynb](https://github.com/Sharonio/roboshaul/blob/main/roboshaul_usage.ipynb) 
 
 The system consists of the SASPEECH dataset, which is a collection of recordings of Shaul Amsterdamski's unedited recordings for the podcast 'Hayot Kis', and a Text-to-Speech system trained on the dataset, implemented in the Coqui AI TTS framework.
 
