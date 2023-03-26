@@ -124,3 +124,15 @@ $ tensorboard --logdir=/path/to/TTS/recipes/saspeech/hifigan/run-March-14-2023_0
 Now that tensorboard is running, you can go to [http://localhost:6006](http://localhost:6006) in your browser to view metrics as training evolves.
 
 Model checkpoints are saved to the same directory, so in our above example, the directory `/path/to/TTS/recipes/saspeech/hifigan/run-March-14-2023_07+07AM-91fd5654` will also contain model checkpoints
+
+### Contact Us
+
+We are Roee Shenberg and Orian Sharoni or in other words Up·AI. If you have any questions or comments, please feel free to contact us using the information below.
+
+| **Orian Sharoni**          | **Roee Shenberg**         |
+| ------------------------- | ------------------------- |
+|[Connect on LinkedIn](https://www.linkedin.com/in/orian-sharoni/) |[Connect on LinkedIn](https://www.linkedin.com/in/roeeshenberg/) |
+| [Follow on Twitter](https://twitter.com/OrianSharoni)       |[Follow on Twitter](https://twitter.com/roeeshenberg)       |
+| orian.sharoni@upai.dev  |roee.shenberg@upai.dev  |
+
+The project's [discord](https://discord.gg/b8ABzQUF)
