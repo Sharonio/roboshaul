@@ -1,6 +1,6 @@
 # Robo-Shaul
 
-This repository contains all you need in order to use the train your own robo-shaul or use pre-trained models.
+Welcome to the Robo-Shaul repository! Here, you'll find everything you need to train your own Robo-Shaul or use pre-trained models. Robo-Shaul is a text-to-speech system that converts diacritized Hebrew text into speech using the Coqui AI TTS framework.
 
 #### For a demo look [here](https://anonymous19283746.github.io/saspeech/)
 
