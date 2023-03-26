@@ -4,13 +4,10 @@ Welcome to the Robo-Shaul repository! Here, you'll find everything you need to t
 
 #### For a demo look [here](https://anonymous19283746.github.io/saspeech/)
 
-#### For a quick start look at [roboshaul_usage.ipynb](https://github.com/Sharonio/roboshaul/blob/main/roboshaul_usage.ipynb)
+#### For a quick start look at [roboshaul_usage.ipynb](https://github.com/Sharonio/roboshaul/blob/main/roboshaul_usage.ipynb) or <a target="_blank" href="https://colab.research.google.com/github/Sharonio/roboshaul/blob/main/roboshaul_usage_colab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 #### For the חיות כיס podcast documenting the project listen [here](https://open.spotify.com/episode/7eM8KcpUGMxOk6X5WQYdh5?si=3xf0TNzwRTSHaCo8jIozOg)
 
-<a target="_blank" href="https://colab.research.google.com/github/Sharonio/roboshaul/blob/main/roboshaul_usage_colab.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
 
 The system consists of the SASPEECH dataset, which is a collection of recordings of Shaul Amsterdamski's unedited recordings for the podcast 'Hayot Kis', and a Text-to-Speech system trained on the dataset, implemented in the Coqui AI TTS framework.
 
