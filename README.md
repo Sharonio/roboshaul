@@ -131,8 +131,8 @@ We are Roee Shenberg and Orian Sharoni or in other words Up·AI. If you have any
 
 | **Orian Sharoni**          | **Roee Shenberg**         |
 | ------------------------- | ------------------------- |
-| [Connect on LinkedIn](https://www.linkedin.com/in/orian-sharoni/) | [Connect on LinkedIn](https://www.linkedin.com/in/roeeshenberg/) |
-| [Follow on Twitter](https://twitter.com/OrianSharoni)       | [Follow on Twitter](https://twitter.com/roeeshenberg)       |
+| <a href="https://www.linkedin.com/in/orian-sharoni/" target="_blank">Connect on LinkedIn</a> | <a href="https://www.linkedin.com/in/roeeshenberg/" target="_blank">Connect on LinkedIn</a> |
+| <a href="https://twitter.com/OrianSharoni" target="_blank">Follow on Twitter</a>       | <a href="https://twitter.com/roeeshenberg" target="_blank">Follow on Twitter</a>       |
 | <orian.sharoni@upai.dev>  | <roee.shenberg@upai.dev>  |
 
-The project's [discord](https://discord.gg/b8ABzQUF) is also available for communication and collaboration.
+The project's <a href="https://discord.gg/b8ABzQUF" target="_blank">discord</a> is also available for communication and collaboration.
