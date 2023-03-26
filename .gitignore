@@ -1,3 +1,7 @@
+/hifigan_model
+/tts_model
+/outputs
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
