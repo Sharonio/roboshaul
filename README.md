@@ -138,4 +138,4 @@ We are Roee Shenberg and Orian Sharoni or in other words Up·AI. If you have any
 | <a href="https://twitter.com/OrianSharoni" target="_blank">Follow on Twitter</a>       | <a href="https://twitter.com/roeeshenberg" target="_blank">Follow on Twitter</a>       |
 | <orian.sharoni@upai.dev>  | <roee.shenberg@upai.dev>  |
 
-The project's <a href="https://discord.gg/b8ABzQUF" target="_blank">discord</a> is also available for communication and collaboration.
+The project's <a href="https://discord.gg/t5d2N9gUZH" target="_blank">discord</a> is also available for communication and collaboration.
