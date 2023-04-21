@@ -28,6 +28,17 @@ If you're on Windows, running `pip install numpy==1.23.5 numba==0.56.4` after in
 
 It is recommended to do these steps inside a virtual environment, conda env, or similar.
 
+Example windows command (assuming you have conda installed):
+```
+conda create --name "roboshaul" python=3.10
+conda activate roboshaul
+conda install -c anaconda cython
+conda install -c conda-forge jupyterlab
+git clone https://github.com/shenberg/TTS
+pip install -e TTS
+pip install numpy==1.23.5 numba==0.56.4
+```
+
 Steps:
 
 1. Clone our fork of coqui-tts: `git clone https://github.com/shenberg/TTS`
