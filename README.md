@@ -23,7 +23,8 @@ To download the trained models, go to [this link](https://drive.google.com/drive
 The model expects diacritized hebrew (עברית מנוקדת), we recommend [Nakdimon](https://nakdimon.org) by Elazar Gershuni and Yuval Pinter. The link is to a free online tool, the code and model are also available on GitHub at [https://github.com/elazarg/nakdimon](https://github.com/elazarg/nakdimon)
 ## Installation
 
-Here are the installation instructions necessary to use our trained models or to train your own models. They have been tested on Ubuntu 22.04, and should work as-is on Mac except for there being no CUDA. If you're on Windows, best of luck!
+Here are the installation instructions necessary to use our trained models or to train your own models. They have been tested on Ubuntu 22.04, and should work as-is on Mac except for there being no CUDA.
+If you're on Windows, running `pip install numpy==1.23.5 numba==0.56.4` after installation has been reported to make it work on python 3.10, however not thoroughly tested.
 
 It is recommended to do these steps inside a virtual environment, conda env, or similar.
 
