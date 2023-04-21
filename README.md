@@ -28,7 +28,16 @@ If you're on Windows, running `pip install numpy==1.23.5 numba==0.56.4` after in
 
 It is recommended to do these steps inside a virtual environment, conda env, or similar.
 
-Example windows command (assuming you have conda installed):
+Steps:
+
+1. Clone our fork of coqui-tts: `git clone https://github.com/shenberg/TTS`
+2. Install it as an editable install: `pip install -e TTS`
+3. Download our trained models: [Overflow TTS](https://drive.google.com/drive/folders/1C7xfx8p8iTaF73bvfvIdkGDPv01wvjmx?usp=share_link), [HiFi-GAN](https://drive.google.com/drive/folders/1SC6IQtdXH1SjHSgLGY1iZtl9nwDGQ072?usp=share_link)
+4. Test that it works: `CUDA_VISIBLE_DEVICES=0 tts --text "עַכְשָׁיו, לְאַט לְאַט, נָסוּ לְדַמְיֵין סוּפֶּרְמַרְקֶט." --model_path /path/to/saspeech_overflow.pth  --config_path /path/to/config_saspeech_overflow.json  --vocoder_path /path/to/saspeech_hifigan.pth --vocoder_config_path /path/to/config_saspeech_hifigan.json --out_path test.wav`
+
+You should now have a file named `test.wav` which has the model's TTS output.
+
+#### Example windows installation using conda
 ```
 conda create --name "roboshaul" python=3.10
 conda activate roboshaul
@@ -39,14 +48,6 @@ pip install -e TTS
 pip install numpy==1.23.5 numba==0.56.4
 ```
 
-Steps:
-
-1. Clone our fork of coqui-tts: `git clone https://github.com/shenberg/TTS`
-2. Install it as an editable install: `pip install -e TTS`
-3. Download our trained models: [Overflow TTS](https://drive.google.com/drive/folders/1C7xfx8p8iTaF73bvfvIdkGDPv01wvjmx?usp=share_link), [HiFi-GAN](https://drive.google.com/drive/folders/1SC6IQtdXH1SjHSgLGY1iZtl9nwDGQ072?usp=share_link)
-4. Test that it works: `CUDA_VISIBLE_DEVICES=0 tts --text "עַכְשָׁיו, לְאַט לְאַט, נָסוּ לְדַמְיֵין סוּפֶּרְמַרְקֶט." --model_path /path/to/saspeech_overflow.pth  --config_path /path/to/config_saspeech_overflow.json  --vocoder_path /path/to/saspeech_hifigan.pth --vocoder_config_path /path/to/config_saspeech_hifigan.json --out_path test.wav`
-
-You should now have a file named `test.wav` which has the model's TTS output.
 
 ## Training
 
