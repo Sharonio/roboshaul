@@ -23,7 +23,8 @@ To download the trained models, go to [this link](https://drive.google.com/drive
 The model expects diacritized hebrew (עברית מנוקדת), we recommend [Nakdimon](https://nakdimon.org) by Elazar Gershuni and Yuval Pinter. The link is to a free online tool, the code and model are also available on GitHub at [https://github.com/elazarg/nakdimon](https://github.com/elazarg/nakdimon)
 ## Installation
 
-Here are the installation instructions necessary to use our trained models or to train your own models. They have been tested on Ubuntu 22.04, and should work as-is on Mac except for there being no CUDA. If you're on Windows, best of luck!
+Here are the installation instructions necessary to use our trained models or to train your own models. They have been tested on Ubuntu 22.04, and should work as-is on Mac except for there being no CUDA.
+If you're on Windows, running `pip install numpy==1.23.5 numba==0.56.4` after installation has been reported to make it work on python 3.10, however not thoroughly tested.
 
 It is recommended to do these steps inside a virtual environment, conda env, or similar.
 
@@ -35,6 +36,18 @@ Steps:
 4. Test that it works: `CUDA_VISIBLE_DEVICES=0 tts --text "עַכְשָׁיו, לְאַט לְאַט, נָסוּ לְדַמְיֵין סוּפֶּרְמַרְקֶט." --model_path /path/to/saspeech_overflow.pth  --config_path /path/to/config_saspeech_overflow.json  --vocoder_path /path/to/saspeech_hifigan.pth --vocoder_config_path /path/to/config_saspeech_hifigan.json --out_path test.wav`
 
 You should now have a file named `test.wav` which has the model's TTS output.
+
+#### Example windows installation using conda
+```
+conda create --name "roboshaul" python=3.10
+conda activate roboshaul
+conda install -c anaconda cython
+conda install -c conda-forge jupyterlab
+git clone https://github.com/shenberg/TTS
+pip install -e TTS
+pip install numpy==1.23.5 numba==0.56.4
+```
+
 
 ## Training
 
