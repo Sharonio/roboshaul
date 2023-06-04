@@ -17,7 +17,6 @@ The text-to-speech system consists of two parts:
 2. A mel spectrogram-to-wav model called HiFi-GAN
 
 To download the dataset for training, go to [Open SLR](https://www.openslr.org/134/)
-))
 
 To download the trained models, go to [this link](https://drive.google.com/drive/folders/1C7xfx8p8iTaF73bvfvIdkGDPv01wvjmx?usp=share_link) for OverFlow, [this link](https://drive.google.com/drive/folders/1SC6IQtdXH1SjHSgLGY1iZtl9nwDGQ072?usp=share_link) for HiFi-GAN.
 
