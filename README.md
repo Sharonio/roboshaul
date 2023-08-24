@@ -37,6 +37,8 @@ Steps:
 
 You should now have a file named `test.wav` which has the model's TTS output.
 
+**NOTE**: By now our modifications for Coqui-TTS have been upstreamed so a regular installation should work.
+
 #### Example windows installation using conda
 ```
 conda create --name "roboshaul" python=3.10
@@ -152,3 +154,18 @@ We are Roee Shenberg and Orian Sharoni or in other words Up·AI. If you have any
 | <orian.sharoni@upai.dev>  | <roee.shenberg@upai.dev>  |
 
 The project's <a href="https://discord.gg/t5d2N9gUZH" target="_blank">discord</a> is also available for communication and collaboration.
+
+### Citation
+If you use our work, cite us as: Sharoni, O., Shenberg, R., Cooper, E. (2023) SASPEECH: A Hebrew Single Speaker Dataset for Text To Speech and Voice Conversion. Proc. INTERSPEECH 2023, 5566-5570, doi: 10.21437/Interspeech.2023-430
+
+```
+@inproceedings{sharoni23_interspeech,
+  author={Orian Sharoni and Roee Shenberg and Erica Cooper},
+  title={{SASPEECH: A Hebrew Single Speaker Dataset for Text To Speech and Voice Conversion}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={5566--5570},
+  doi={10.21437/Interspeech.2023-430}
+}
+```
+
